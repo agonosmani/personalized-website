@@ -1,0 +1,143 @@
+body{
+  margin: 0;
+  color: #40514e;
+  text-align: center; /*this puts everything in the center
+                        except for things that have a specified
+                        width.*/
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  margin: 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.2rem;
+  color: #66BFBF;
+}
+
+h2{
+  margin: 0 auto;
+  font-size: 2.rem;
+  color: #66BFBF;
+}
+
+h3{
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+}
+
+a:hover{
+  color: white;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  margin: 100px auto;
+  border: 8px dotted pink;
+  border-bottom: none;
+  width: 5%;
+}
+
+.top-container{
+  background-color: #fffde8;
+  position: relative;             /*parent relative must be relative*/
+  padding-top: 100px;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.bottom-container{
+  background-color: #66bfbf;
+  padding: 50px;
+}
+
+.footer-link{
+  margin: 0 20px 10px 20px;
+  text-decoration: none;
+}
+
+.copirajt{
+  margin-top: 50px;
+  color: white;
+  font-size: 0.76rem;
+}
+
+.end-message{
+  width: 40%;
+  margin: 20px auto 50px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.yt-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  background-color: lightblue;
+  border-radius: 100%;
+}
+
+.code-img{
+  width: 25%;
+  float: right;   /*makes all text in the same parent div to wrap around this element*/
+  margin-left: 30px;
+}
+
+.rebel{
+  clear: left;   /*this is anti-float. It's left side is immune to wraping around floats*/
+}
+
+.btn{
+  background-color: #11999E;
+  text-decoration: none;
+  color: white;
+  font-family: 'Merriweather', serif;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  background-color: pink;
+  color: red;
+}
+
+.know{          /*random span*/
+  text-decoration: underline;
+}
+
+#idontknow{
+  font-weight: normal;
+}
+
+#cvpic{
+  height: 100px;
+  border-radius: 100%;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+/*you have to write this to put the specified
+                  elements to the center. The left and right margin
+                  get put to auto which automatically puts them in the center*/
